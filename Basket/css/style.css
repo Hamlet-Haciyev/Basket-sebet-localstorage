@@ -1,0 +1,107 @@
+header .media {
+  width: 200px;
+  height: 130px;
+}
+
+header .media img {
+  width: 100%;
+  height: 100%;
+}
+
+header .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+header .links ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 100px;
+}
+
+header .links ul li a {
+  font-size: 18px;
+  color: #434141;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+header .links ul li a:hover {
+  color: orange;
+}
+
+header .icons {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .icons ul {
+  list-style-type: none;
+}
+
+header .icons ul li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+}
+
+header .icons ul li a i {
+  font-size: 30px;
+  color: orange;
+}
+
+header .icons ul li a span {
+  position: absolute;
+  top: -30px;
+  font-size: 20px;
+  right: -10px;
+  color: black;
+}
+
+.card .card-body {
+  position: relative;
+}
+
+.card a {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 4px 3px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 13px;
+}
+/*# sourceMappingURL=style.css.map */
